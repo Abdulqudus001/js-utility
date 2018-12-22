@@ -1,6 +1,5 @@
-// import replaceAll from "./src/replaceAll";
 
-const replaceAll = require('./src/replaceAll')
-
-let myName = 'Abdulqudus';
-console.log(replaceAll(myName, 'u', 'v'));
+module.exports = {
+  replaceAll:  require('./src/replaceAll'),
+  sortBy: require('./src/sortBy')
+};
