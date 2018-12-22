@@ -1,0 +1,19 @@
+{
+  "name": "js-utility",
+  "version": "1.0.0",
+  "description": "javacript utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulqudus001/js-utility.git"
+  },
+  "author": "ibn_abubakre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulqudus001/js-utility/issues"
+  },
+  "homepage": "https://github.com/Abdulqudus001/js-utility#readme"
+}
