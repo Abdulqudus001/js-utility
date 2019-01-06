@@ -1,5 +1,11 @@
+/**
+ * 
+ * @param {string} str The string to check
+ * @returns {boolean} Returns boolean if str is palindrome or not 
+ */
+
 function palindrome(str) {
-  let newStr = str.replace(/[^a-z0-9]/gi, '');
+  let newStr = str.toString().replace(/[^a-z0-9]/gi, '');
 
   let arr = newStr.toLowerCase().split('');
 
