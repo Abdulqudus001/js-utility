@@ -3,5 +3,6 @@
 module.exports = {
   replaceAll:  require('./src/replaceAll'),
   sortBy: require('./src/sortBy'),
-  isPrime: require('./src/isPrime')
+  isPrime: require('./src/isPrime'),
+  isPalindrome: require('./src/isPalindrome')
 };
