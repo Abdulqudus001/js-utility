@@ -7,3 +7,4 @@ module.exports = {
   isAlphaNumeric: require('./src/alphanumeric').isAlphaNumeric,
   toRoman: require('./src/toRoman')
 };
+
