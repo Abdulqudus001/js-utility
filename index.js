@@ -4,5 +4,6 @@ module.exports = {
   isPrime: require('./src/isPrime'),
   isPalindrome: require('./src/isPalindrome'),
   toAlphaNumeric: require('./src/alphanumeric').toAlphaNumeric,
-  isAlphaNumeric: require('./src/alphanumeric').isAlphaNumeric
+  isAlphaNumeric: require('./src/alphanumeric').isAlphaNumeric,
+  toRoman: require('./src/toRoman')
 };
