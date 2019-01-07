@@ -8,4 +8,3 @@ module.exports = {
   toRoman: require('./src/roman').toRoman,
   fromRoman: require('./src/roman').fromRoman
 };
-
