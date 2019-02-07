@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Abdulqudus001/js-utility/issues"
   },
-  "homepage": "https://github.com/Abdulqudus001/js-utility#readme"
+  "homepage": "https://github.com/Abdulqudus001/js-utility#readme",
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
 }
