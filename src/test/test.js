@@ -37,5 +37,19 @@ describe('Convert from roman', () => {
 
 
 describe('Check if string is alphanumeric', () => {
+  it('Abdulqudus123 should return true', () => {
+    assert.equal(isAlphaNumeric('Abdulqudus123'), true);
+  });
 
-})
+  it('Abdulqudus123_ with underscore disabled should return false', () => {
+    assert.equal(isAlphaNumeric('Abdulqudus123_', {
+      underscore: false
+    }), false);
+  });
+
+  it('Abdulqudus123_ with underscore enabled should return true', () => {
+    assert.equal(isAlphaNumeric('Abdulqudus123_', {
+      underscore: true
+    }), true);
+  });
+});
